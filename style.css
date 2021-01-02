@@ -17,9 +17,13 @@ body {
   height: 100vh;
   color: #333;
   background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+}
+
+.wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 5rem;
 }
 
 /* LAYOUT */
@@ -168,4 +172,9 @@ main {
 
 .hidden {
   display: none;
+}
+
+footer {
+  text-align: center;
+  font-size: 120%;
 }
